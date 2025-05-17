@@ -1,0 +1,50 @@
+body {
+    background-color: #5da0d7;
+    width: 50%;
+    margin: 0 auto;
+}
+h1 {
+    color: #ffffff;
+    font-size: 2em;
+    text-align: center;
+    font-family: helvetica;
+}
+h1:hover {
+    color: black;
+}
+#ed-quote {
+    font-size: 1em;
+    color: #ffffff;
+    text-align: center;
+}
+h4 {
+    color: #ffffff;
+    font-size: 1.25em;
+    text-align: center;
+    font-family: helvetica;
+}
+
+ol{
+    color: #000000;
+    font-size: 1em;
+    text-align: left;
+    font-family: helvetica-bold;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+blockquote {
+    color: #ffffff;
+    font-size: 2em;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+}
+footer {
+    color: #000000;
+    font-size: 1em;
+    text-align: center;
+    font-family: helvetica;
+}

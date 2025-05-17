@@ -6,4 +6,43 @@
 #active {
     background-color: white;
     color: steelblue;
+    text-decoration: none;
+}
+
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+main p {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+a {
+    color: steelblue;
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: 10px;
+}
+
+h1, nav, footer {
+    background-color: lightcoral;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+a:hover {
+    color: lightcoral;
+    background-color: white;
+    text-decoration: none;
 }
