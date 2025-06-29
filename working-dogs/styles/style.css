@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background: #333;
+  color: white;
+  padding: 1em;
+  text-align: right;
+}
+
+nav a {
+  color: white;
+  margin: 0 1em;
+  text-decoration: none;
+}
+
+main {
+  padding: 1rem;
+}
