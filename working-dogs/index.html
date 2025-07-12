@@ -20,15 +20,18 @@
   <div class="logo-spacer"></div>
 
   <main>
-   <!--  <section class="hero">
-      <img src="images/funny-dog.jpg" alt="Funny working dog" />
-      <h2>Discover the World of Working Dogs</h2>
-      <p>Not all heroes wear capes—some wear collars! Working dogs are loyal companions with important jobs that help people every day.</p>
-    </section> -->
+    
+      <!-- The Modal -->
+      
 
     <section class="teasers">
         <div class="teaser">
-          <img src="images/frolicking-400px.jpg" alt="Dogs working hilarious office jobs" />
+          <img id="myImg" src="images/frolicking-400px.jpg" alt="Dogs working hilarious office jobs" />
+          <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+          </div>
           <h3><a class="body_link" href="types.html">Meet the Barkforce</a></h3>
           <p>From Zoomie Strategist to Chief Snack Officer, these professional pups are redefining what it means to work like a dog. Suits optional, snacks mandatory.</p>
         </div>
@@ -44,5 +47,27 @@
     <p>&copy; 2025 Working Dogs | Kayla Ng</p>
     <p><a href="https://kng90.github.io/wdd130/working-dogs/site-plan.html">Site Plan</a></p>
   </footer>
+
+  <script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+  
+    // Get the image and insert it into the modal
+    var img = document.getElementById("myImg");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+  
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+  
+    // Close the modal
+    var span = document.getElementsByClassName("close")[0];
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+  </script>
 </body>
 </html>
