@@ -167,7 +167,7 @@ main h3 a:hover {
   text-align: center;
   color: var(--secondary-color);
 }
-.dog-photo h2 {
+#caption {
   margin: 0;
   text-align: center;
   color: var(--secondary-color);
