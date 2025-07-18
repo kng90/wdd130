@@ -167,6 +167,14 @@ main h3 a:hover {
   text-align: center;
   color: var(--secondary-color);
 }
+.dog-photo h2 {
+  margin: 0;
+  text-align: center;
+  color: var(--secondary-color);
+  font-size: 1em;
+  font-family: var(--font-body);
+  font-weight: lighter;
+}
 
 .dog-job p {
   margin: 0;
